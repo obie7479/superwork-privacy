@@ -88,9 +88,13 @@
 
   <h3>1.4 Location Data (Precise Location)</h3>
   <ul>
-    <li><strong>Precise Location:</strong> Latitude/longitude and related telemetry (e.g., timestamp, accuracy, speed, heading, altitude)</li>
-    <li><strong>When used:</strong> Features such as check-in/check-out verification and live tracking functionality</li>
-    <li><strong>Background processing:</strong> Location may be processed while the app is in background where feature-enabled and permitted by the user/device settings</li>
+    <li><strong>Precise Location:</strong> We may collect precise location data (latitude/longitude and related telemetry such as timestamp and accuracy).</li>
+    <li><strong>User-initiated use only:</strong> Location collection starts only when the user actively starts a location-based feature (for example, check-in/check-out verification or live tracking).</li>
+    <li><strong>Foreground location:</strong> Used while the app is open and the feature is active.</li>
+    <li><strong>Background location:</strong> If a user-initiated live tracking session continues after the app is minimized, location may continue to be processed in the background, subject to user/device permission settings.</li>
+    <li><strong>Purpose:</strong> App functionality (real-time work/event tracking, verification, and related status updates).</li>
+    <li><strong>User control:</strong> Users can stop tracking at any time in the app and can revoke location permission in device settings.</li>
+    <li><strong>No advertising use:</strong> We do not use location data for advertising purposes.</li>
   </ul>
 
   <h3>1.5 Permissions We Request</h3>
@@ -110,7 +114,7 @@
     <li>Authentication and account management</li>
     <li>Document/project workflows and collaboration</li>
     <li>Meeting and task-related features</li>
-    <li>Location-based features (when enabled)</li>
+    <li>Location-based features (when enabled by user)</li>
   </ul>
 
   <h3>2.2 Communication</h3>
@@ -135,6 +139,7 @@
   <ul>
     <li><strong>Within your organization:</strong> Data sharing according to organization access rights</li>
     <li><strong>Service providers:</strong> Trusted infrastructure providers under contractual safeguards</li>
+    <li><strong>Location processing for app functionality:</strong> When users start location-based features, location data may be transmitted securely to our backend services to provide real-time tracking and verification requested by the user.</li>
     <li><strong>Legal compliance:</strong> If required by law or to protect legal rights/safety</li>
   </ul>
 
@@ -150,6 +155,7 @@
   <ul>
     <li><strong>Account data:</strong> Retained while account is active</li>
     <li><strong>Operational records:</strong> Retained based on organizational or legal requirements</li>
+    <li><strong>Location data:</strong> Retained only as long as necessary for the requested tracking/verification purpose and related legal, security, or audit obligations, then deleted or anonymized.</li>
     <li><strong>Diagnostics/usage logs:</strong> Retained only as needed for service quality and security</li>
   </ul>
 
@@ -175,6 +181,7 @@
   <ul>
     <li>Account profile and account-linked application data</li>
     <li>User-generated content where legally permitted</li>
+    <li>Location history/session records linked to the account, except records required for legal, security, fraud prevention, tax, or audit obligations</li>
     <li>Associated authentication/account records not required by law</li>
   </ul>
 
